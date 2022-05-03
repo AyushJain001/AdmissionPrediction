@@ -1,0 +1,7 @@
+1. Your main python file name should be application.py
+2. Your flask object name, which we have defined in application.py should also be the application.
+3. .ebignore  is responsible to hold the name of those files which we don't want to push on a cloud.
+4. Create a requirements.txt file. Command : pip freeze > requirements.txt
+5. Creat a folder called .ebextensions
+6. Inside .ebextensions we need a python.config file.
+7. Mention the commands in python.config
